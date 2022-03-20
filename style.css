@@ -65,3 +65,17 @@ body,
     color: red;
     text-decoration: underline;
 }
+
+@media (max-width: 500px) {
+    .timer {
+        font-size: 2rem;
+        top: 2rem;
+    }
+    .container {
+        position: absolute;
+        top: 7rem;
+    }
+    .quote-input {
+        height: 3rem;
+    }
+}
